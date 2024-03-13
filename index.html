@@ -229,6 +229,20 @@ Các ý kiến đóng nên viết các chi tiết rõ ràng,kèm theo các minh 
   <h3>
     <font color="red">BÀI 4</font>
   </h3>
-  
+  <p>
+  <label>Pounds</label>
+ <input id="inputPounds" type="number" placeholder="Nhập" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</p>
+<p>Kilograms: <span id="outputKilograms"></span>
+<input id="inputPounds" type="number" placeholder="Nhập" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)"></p>
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
+}
+</script>
+  <h3>
+    <font color="red">Bài 5</font>
+  </h3>
 </body>
 </html>

@@ -13,3 +13,7 @@ function giai_pt_bac_nhat(a, b)
         alert('Phương trình có nghiệm x = ' + (-b/a));
     }
 }
+
+function weightConverter(valNum) {
+  document.getElementById("outputGrams").innerHTML = valNum / 0.0022046;
+}
