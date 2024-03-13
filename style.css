@@ -48,10 +48,10 @@ h3{
     font-family: Helvetica,sans-serif;
   }
   button {
-    background-color: #2d3032;
+    background-color: blue;
     border: 1px solid #2d3032;
     border-radius: 3px;
-    color: #fff;
+    color: white;
     cursor: pointer;
     width: 100%;
     padding: 18px 0 16px;
@@ -59,7 +59,7 @@ h3{
     transition: 0.3s background-color;
   }
   button:hover {
-    background-color: #606162;
+    background-color: lightblue;
   }
   .clearfix {
     zoom: 1;
